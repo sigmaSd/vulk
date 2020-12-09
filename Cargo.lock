@@ -526,6 +526,7 @@ name = "vulk"
 version = "0.1.0"
 dependencies = [
  "image",
+ "shaderc",
  "vulkano",
  "vulkano-shaders",
 ]
