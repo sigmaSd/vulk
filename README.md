@@ -35,3 +35,5 @@ void main() {
 }
 
 ```
+
+To compile sharders at compile time, see https://github.com/sigmaSd/vulk/tree/master/examples/vulkusage
