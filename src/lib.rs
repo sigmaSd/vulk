@@ -133,7 +133,7 @@ unsafe impl PipelineLayoutDesc for Layout {
     fn num_push_constants_ranges(&self) -> usize {
         0
     }
-    fn push_constants_range(&self, num: usize) -> Option<PipelineLayoutDescPcRange> {
+    fn push_constants_range(&self, _num: usize) -> Option<PipelineLayoutDescPcRange> {
         None
     }
 }

@@ -8,6 +8,8 @@ edition = "2018"
 
 [dependencies]
 image = "0.23.12"
-shaderc = "0.6.0"
 vulkano = "0.19.0"
 vulkano-shaders = "0.19.0"
+
+[dev-dependencies]
+shaderc = "0.6.0"
