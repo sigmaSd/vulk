@@ -1,0 +1,13 @@
+[package]
+name = "vulkusage"
+version = "0.8.7"
+edition = "2018"
+
+[dependencies]
+proc-macro2 = "1.0.24"
+quote = "1.0.7"
+shaderc = "0.6.0"
+vulk = {git = "https://github.com/sigmaSd/vulk"}
+
+[lib]
+proc-macro = true
